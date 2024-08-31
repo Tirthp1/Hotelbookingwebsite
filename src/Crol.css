@@ -1,0 +1,82 @@
+.bgimg {
+    height: 90.5vh;
+    position: relative;
+  }
+  
+  .bgimg img {
+    object-fit: cover;
+  }
+  
+  .container.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .w-100{
+    width:100%;
+    height:100%;
+  }
+  
+  .typewriter h1 {
+    color: rgb(222, 85, 17);
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid rgb(222, 85, 17);;
+    white-space: nowrap;
+    opacity: 0.9;
+    margin: 0 auto;
+    font-size: 6rem; /* Increase the font size */
+    font-weight: bolder;
+    background-color: #d3eaec;
+    letter-spacing: .1em; /* Adjusted letter-spacing */
+    animation:
+      typing 4s steps(25, end), /* Slower typing animation */
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* Media query to hide animation on small screens */
+  @media (max-width: 768px) {
+    .typewriter h1 {
+      display: none;
+    }
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(222, 85, 17); }
+  }
+  
+  .sub-heading {
+    color: rgb(222, 85, 17);
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0.9;
+    margin: 0 auto;
+    font-size: 3.5rem; /* Adjusted font size */
+    font-weight: bolder;
+    background-color: #d3eaec;
+    letter-spacing: 0.1em; /* Adjusted letter-spacing */
+    animation:
+      typing 4s steps(25, end), /* Slower typing animation */
+      blink-caret .5s step-end infinite,
+      show-sub-heading 4s 4s; /* New animation for sub-heading */
+  }
+  
+  /* Media query to hide sub-heading on small screens */
+  @media (max-width: 768px) {
+    .sub-heading {
+      display: none;
+    }
+  }
+  
+  @keyframes show-sub-heading {
+    0% { opacity: 0; }
+    100% { opacity:0.9;}
+  }  

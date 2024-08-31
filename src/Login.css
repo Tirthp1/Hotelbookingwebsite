@@ -1,0 +1,49 @@
+
+.forma1{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color:black;
+    color:white;
+    opacity:0.9;
+    border-radius: 30px;
+}
+.itema2{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.im1{
+    height:100%;
+    width:100%;
+}
+.ha1{
+    text-align: center;
+    font-size:45px;
+}
+.com1{
+    margin:25px;
+    height:35px;
+    border-radius:25px;
+}
+.pa1{
+    text-align: center;
+    font-size:25px;
+}
+.la1{
+    text-align: center;
+    font-size:25px;
+    color:blue;
+}
+.com_1{
+    background-color: rgb(53, 149, 251);
+    margin:25px;
+    height:35px;
+    border-radius:25px;
+}

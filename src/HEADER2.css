@@ -1,0 +1,33 @@
+.hecon1 {
+    background: #90d6ed;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    color: black;
+    font-family:Gill Sans;
+    justify-content: space-between;
+    justify-content: space-evenly; 
+}
+
+.btn_1 {
+    background-color: rgb(4, 4, 4);
+    height: 40px;
+    width:160px;
+    border-radius: 20px;
+    color: rgb(252, 249, 249);
+    margin-left:50px;
+}
+
+.h11 {
+    font-size: 40px;
+    font-style: Britannic;
+    margin-left:50px;
+}
+
+.h41 {
+    font-size: 25px;
+    font-style: Britannic;
+    margin-left:50px;
+ } 

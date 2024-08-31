@@ -1,0 +1,38 @@
+.container_c1z {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.f1_c1z {
+    height: 350px;
+    width: 350px;
+    /* border:3px solid black;
+    border-radius:20px; */
+    border: 1px solid rgb(245, 244, 244);
+    box-shadow: 5px 5px 9px 0 rgba(15, 14, 14, 0.3);
+    border-radius: 10px;
+}
+
+.f1_c1z:hover {
+    /* margin:20px; */
+    /* border:3px solid black;
+    border-radius:20px; */
+    border: 3px solid rgb(250, 247, 247);
+    box-shadow: 15px 15px 19px 0 rgba(15, 14, 14, 0.3);
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.centered_c1az {
+    color: rgb(2, 2, 2);
+    font-size: 35px;
+    text-align: center;
+}
